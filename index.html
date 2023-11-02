@@ -2,13 +2,20 @@
 <head>
     <meta charset="utf-8"/>
     <title>Poker test</title>
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script src="main.js" type="text/javascript"></script>
 </head>
 <body>
-    <input type="button" onclick="piocher()" value="Piocher" />
-    <input type="button" onclick="refaire_deck()" value="Refaire le deck" />
-
-
+    <p id="commands">
+        <input type="button" onclick="piocher()" value="Piocher" />
+        <input type="button" onclick="refaire_deck()" value="Refaire le deck" />
+    </p>
+    <p>
+        <div id="carte1" class="main"> </div>
+        <div id="carte2" class="main"> </div>
+        <div id="carte3" class="main"> </div>
+        <div id="carte4" class="main"> </div>
+        <div id="carte5" class="main"> </div>
+    </p>
 
 </body>
